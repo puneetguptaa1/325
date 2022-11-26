@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>325 Team 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .blank {
+            padding: 20px;
+            text-align: center;
+            background: #ffffff;
+            color: white;
+        }
+        .header {
+            padding: 40px;
+            text-align: center;
+            background: #881c1c;
+            color: white;
+            width: auto;
+        }
+        .header h1 {
+            font-size: 40px;
+        }
+        .button {
+            border: none;
+            color: #000000;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            position: relative;
+        }
+        .button1 {
+            background-color: white;
+            color: black;
+            border: 2px solid #4CAF50;
+
+        }
+        .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .location{
+            border: 5px solid;
+            margin: auto;
+            width: 50%;
+            height: 200px;
+            padding: 10px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+            position: relative;
+
+        }
+        .location h1{
+            text-align: left;
+        }
+        .location p{
+            text-align: left;
+        }
+        .busy{
+            background-color: darkred;
+            color: white;
+        }
+        .moderate{
+            background-color: yellow;
+            color: black;
+        }
+        .empty{
+            background-color: darkolivegreen;
+            color: white;
+        }
+        .directions{
+            background-color: cornflowerblue;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="blank">
+    <h1> </h1>
+</div>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="#about">About</a>
+</div>
+<div class="header">
+    <h1>Showing Study Locations Near You...</h1>
+</div>
+
+<button class="button button1"><a href="studentfilter.html">Filter</a></button>
+
+<div class="location">
+    <h1>W.E.B Du Bois Library</h1>
+    <p>7:00am to 12:00am</p>
+    <button class="button busy">Busy</button>
+    <button class="button directions">Directions</button>
+</div>
+
+<div class="location">
+    <h1>Student Union</h1>
+    <p>7:00am to 10:00pm</p>
+    <button class="button moderate">Moderate</button>
+    <button class="button directions">Directions</button>
+</div>
+
+<div class="location">
+    <h1>Lederle Graduate Research Center</h1>
+    <p>7:00am to 12:00am</p>
+    <button class="button empty">Empty</button>
+    <button class="button directions">Directions</button>
+</div>
+
+<div class="location">
+    <h1>Roots Cafe</h1>
+    <p>7:00am to 1:00am</p>
+    <button class="button empty">empty</button>
+    <button class="button directions">Directions</button>
+</div>
+
+<div class="location">
+    <h1>South College</h1>
+    <p>7:00am to 11:00pm</p>
+    <button class="button moderate">moderate</button>
+    <button class="button directions">Directions</button>
+</div>
+
+
+</body>
+</html>
